@@ -36,7 +36,7 @@
     <div class="container">
  <h1 class="main-title">Effective Solutions
 for Your Business</h1>
-<button class="one-button" type="button"><span class="button-title">Order Service</span></button>
+<button class="one-button" type="button" data-modal-open><span class="button-title">Order Service</span></button>
 </div>
 </section>
 <section class="advantages-section">
@@ -362,6 +362,7 @@ problem to walk away with the perfect and creative solution.</p></li>
                         <use  href="./images/symbol-defs.svg#icon-facebook" > </use>
                     </svg>
                 </a>
+                
             </li>
             <li class="social-item-footer">
                 <a class="link-footer link" href="http://linkedin.com/" target="_blank" >
@@ -373,6 +374,15 @@ problem to walk away with the perfect and creative solution.</p></li>
           </ul>
         </div>
     </div>
-</footer>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-button" type="button" data-modal-close></button>
+        <svg class="modal-close-button">
+            <use href="./images/symbol-defs.svg#close-button-icon"></use>
+        </svg>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
