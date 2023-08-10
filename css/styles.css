@@ -197,6 +197,7 @@ padding: 24px 0 24px;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
+ max-width: 1440px;
 }
 .main-title{
     font-size: 56px;
