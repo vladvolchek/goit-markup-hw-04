@@ -58,12 +58,12 @@
     <symbol id="icon-facebook" viewBox="0 0 32 32">
       <path fill="#f4f4fd" d="M21.329 5.313h2.921V.225C23.746.156 22.013 0 19.994 0c-4.212 0-7.097 2.649-7.097 7.519V12H8.249v5.688h4.648V32h5.699V17.689h4.46l.708-5.688h-5.169V8.082c.001-1.644.444-2.769 2.735-2.769z" style="fill:var(--color3, #f4f4fd)"/>
     </symbol>
-    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" fill="none">
-  <g clip-path="close-button-icon">
+    
+  <symbol id="close-button" viewBox="0 0 32 32">
     <path fill="#2E2F42" d="M8 .806 7.194 0 4 3.194.806 0 0 .806 3.194 4 0 7.194.806 8 4 4.806 7.194 8 8 7.194 4.806 4 8 .806Z"/>
-  </g>
+  </symbol>
   <defs>
-    <clipPath id="a">
+    <clipPath id="close-button">
       <path fill="#fff" d="M0 0h8v8H0z"/>
     </clipPath>
   </defs>

@@ -634,7 +634,7 @@ background: var(--cloud, #F4F4FD);
     transform: translate(-50%, -50%) scaleY(0%);
 }
 
-.close-button{
+.close-button-modal{
     position: absolute;
     right: 24px;
     top: 24px;
