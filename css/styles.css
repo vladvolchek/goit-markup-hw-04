@@ -692,4 +692,5 @@ background: var(--cloud, #F4F4FD);
 }
 .modal-close-button{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
