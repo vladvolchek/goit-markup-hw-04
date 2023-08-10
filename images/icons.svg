@@ -64,7 +64,7 @@
   </symbol>
   <defs>
     <clipPath id="close-button">
-      <path fill="#fff" d="M0 0h8v8H0z"/>
+      <path fill="#ffffff" d="M0 0h8v8H0z"/>
     </clipPath>
   </defs>
 </svg>
