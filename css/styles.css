@@ -116,6 +116,7 @@ padding-top: 24px;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header-menu.link::after{
     content: "";
     display: block;
@@ -190,6 +191,20 @@ padding: 24px 0 24px;
  color: #F4F4FD;
   text-decoration: none;
 }
+.current{
+    position: relative;
+    color: #404BBF;
+}
+.current::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: -1px;
+    border-radius: 2px;
+    background-color: var(--ocean);
+    content: "";
+}
 .main-section{
  padding: 188px 0;
  background:#2E2F42;
@@ -197,7 +212,7 @@ padding: 24px 0 24px;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- max-width: 1440px;
+ max-width: 100%;
 }
 .main-title{
     font-size: 56px;
@@ -221,7 +236,12 @@ padding: 24px 0 24px;
     border-radius: 4px;
     padding: 16px 32px;
     margin: 48px auto 0;
-   
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -231,9 +251,7 @@ padding: 24px 0 24px;
 .one-button:focus{
  background-color: #404BBF;
 }
-.button-title{
-    color: #FFFFFF;
-}
+
 .advantages-section{
     padding: 120px 0;
     
@@ -344,6 +362,7 @@ color:#434455;
     align-items: center;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 .social-item{
     width: 40px;
@@ -355,7 +374,7 @@ color:#434455;
 .social-link{
 width: 40px;
 height: 40px;
-margin-top: 8px;
+
 background-color: var(--iris);
 fill: var(--cloud);
 border-radius: 50%;
@@ -443,7 +462,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     width: 100%;
     height: 100%;
-    padding: 16px 32px;
+    
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     
@@ -484,7 +503,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer {
     font-weight: 500;
-    margin-bottom: 16px;
+    
     color: var(--white);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -617,7 +636,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     padding-right: 32px;
     padding-bottom: 164px;
     display: flex;
-    align-items: center;
+    
     transform: translateY(100%);
     transition: transform 250ms linear;
     padding: 40px 32px;
