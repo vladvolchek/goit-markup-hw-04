@@ -198,7 +198,7 @@ padding: 24px 0 24px;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- max-width: 100%;
+ max-width: 1440px;
 }
 .main-title{
     font-size: 56px;
@@ -489,7 +489,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-footer {
     font-weight: 500;
-    
+    margin-bottom: 16px;
     color: var(--white);
     line-height: 1.5;
     letter-spacing: 0.02em;
