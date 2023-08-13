@@ -181,9 +181,7 @@ padding: 24px 0 24px;
     position: relative;
     color: #404BBF;
 }
-.current:hover{
-    
-}
+
 .current::after {
     display: block;
     position: absolute;
@@ -201,7 +199,8 @@ padding: 24px 0 24px;
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
- max-width: 1440px, 100%;
+ max-width: 1440px;
+ margin: 0 auto;
 }
 
 .main-title{
