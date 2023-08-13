@@ -177,7 +177,7 @@ padding: 24px 0 24px;
  color: #F4F4FD;
   text-decoration: none;
 }
-.current{
+.current.header-menu{
     position: relative;
     color: #404BBF;
 }
